@@ -17,7 +17,7 @@ try:
         df = pd.read_csv("data_accesories .csv")
         df = df.dropna(subset=['foto'])
         
-        daftar_kategori = df[' kategori '].unique()
+        daftar_kategori = df['kategori'].unique()
         
         for kat in daftar_kategori:
             st.header(f"🏍️ Accesories {kat.capitalize()}")
