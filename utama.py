@@ -6,8 +6,8 @@ import os
 st.set_page_config(page_title="FM VARIASI", layout="wide")
 
 # 1. Tampilkan Banner Canva
-if os.path.exists("fm variasi.jpg"):
-    st.image("fm variasi.jpg", use_container_width=True)
+if os.path.exists("fm variasi.png"):
+    st.image("fm variasi.png", use_container_width=True)
 
 st.title("FM VARIASI MOTOR")
 st.divider()
