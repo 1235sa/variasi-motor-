@@ -60,7 +60,7 @@ Krangkungan, Depok, KAB. SLEMAN, DEPOK, DI YOGYAKARTA, ID, 55283.""")
 
 with col_info2:
     # Ganti nomor HP di bawah ini dengan nomor Anda (gunakan format 62)
-    no_hp = "6289629997732" 
+    no_hp = "62089629997732" 
     pesan_wa = "Halo boss, saya mau beli accesories Anda."
     link_wa = f"wa.me/62089629997732{no_hp}?text={pesan_wa.replace(' ', '%20')}"
     
