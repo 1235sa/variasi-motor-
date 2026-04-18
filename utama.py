@@ -13,8 +13,8 @@ st.title("FM VARIASI MOTOR")
 st.divider()
 
 try:
-    if os.path.exists("data_accesories.csv"):
-        df = pd.read_csv("data_accesories.csv")
+    if os.path.exists("data_accesories .csv"):
+        df = pd.read_csv("data_accesories .csv")
         df = df.dropna(subset=['foto'])
         
         daftar_kategori = df['kategori'].unique()
