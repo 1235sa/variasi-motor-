@@ -55,14 +55,14 @@ col_info1, col_info2 = st.columns(2)
 
 with col_info1:
     st.markdown("""
-    **Alamat Galeri:** Jalan Asem Gede No. 22, RT.2/RW.8, 
+    **Alamat:** Jalan Asem Gede No. 22, RT.2/RW.8, 
 Krangkungan, Depok, KAB. SLEMAN, DEPOK, DI YOGYAKARTA, ID, 55283.""")
 
 with col_info2:
     # Ganti nomor HP di bawah ini dengan nomor Anda (gunakan format 62)
     no_hp = "6289629997732" 
     pesan_wa = "Halo boss, saya mau beli accesories Anda."
-    link_wa = f"wa.me/6289629997732{no_hp}?text={pesan_wa.replace(' ', '%20')}"
+    link_wa = f"wa.me/{no_hp}?text={pesan_wa.replace(' ', '%20')}"
     
     st.markdown(f"**WhatsApp:**")
     st.link_button("📱 Pesan Sekarang via WhatsApp", link_wa)
