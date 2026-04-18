@@ -41,7 +41,7 @@ try:
             st.divider()
             
     else:
-        st.error("File '' tidak ditemukan!")
+        st.error("File 'data_accesories .csv' tidak ditemukan!")
 
 except Exception as e:
     st.error(f"Terjadi kesalahan: {e}")
