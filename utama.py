@@ -17,7 +17,7 @@ try:
         df = pd.read_csv("data_accesories .csv")
         df = df.dropna(subset=['foto'])
         
-        daftar_kategori = df['kategori'].unique()
+        daftar_kategori = df['Pilih accesories'].unique()
         
         for kat in daftar_kategori:
             st.header(f"🏍️ Accesories {kat.capitalize()}")
@@ -68,4 +68,4 @@ with col_info2:
     st.markdown(f"**WhatsApp:**")
     st.link_button("📱 Pesan Sekarang via WhatsApp", link_wa)
 
-st.caption("© 2026 FM VARIASI MOTOR - Semua Hak Dilindungi")
+st.caption("© 2026 FM VARIASI MOTOR")
