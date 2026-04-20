@@ -55,8 +55,8 @@ col_info1, col_info2 = st.columns(2)
 
 with col_info1:
     st.markdown("""
-    **Alamat:** Jalan Asem Gede No. 22, RT.2/RW.8, 
-Krangkungan, Depok, KAB. SLEMAN, DEPOK, DI YOGYAKARTA, ID, 55283.""")
+    **Alamat:** JI. Asem Gede Krangkungan No.22 RT 02 RW 08
+Condong Catur, Depok, Sleman, Yogyakarta, Indonesia, 55283.""")
 
 with col_info2:
     # Ganti nomor HP di bawah ini dengan nomor Anda (gunakan format 62)
