@@ -64,7 +64,7 @@ with col_info2:
     pesan_wa = "Halo boss, saya mau beli accesories Anda."
     link_wa = f"https://wa.me/{no_hp}?text={pesan_wa.replace(' ', '%20')}"
     
-    st.markdown(f"**📞WhatsApp:**")
+    st.markdown(f"**📞 WhatsApp:**")
     st.link_button("📱 Pesan Sekarang via WhatsApp", link_wa)
 
 st.caption("© 2026 FM VARIASI MOTOR")
