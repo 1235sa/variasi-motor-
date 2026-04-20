@@ -20,7 +20,7 @@ try:
         daftar_kategori = df['kategori'].unique()
         
         for kat in daftar_kategori:
-            st.header(f"🏍️ Accesories {kat.capitalize()}")
+            st.header(f"🏍️ Accesories: {kat.capitalize()}")
             data_per_kat = df[df['kategori'] == kat]
             
             cols = st.columns(4)
