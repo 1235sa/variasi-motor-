@@ -67,4 +67,4 @@ with col_info2:
     st.markdown(f"**📞 WhatsApp:**")
     st.link_button("📱 Pesan Sekarang via WhatsApp", link_wa)
 
-st.caption("© 2026 FM VARIASI MOTOR")
+st.caption("© 2026 FM VARIASI MOTOR | @faqihmbrk02_")
